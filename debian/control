@@ -1,0 +1,12 @@
+Source: ros-groovy-axis-camera
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-groovy-camera-info-manager-py, ros-groovy-catkin, ros-groovy-dynamic-reconfigure, ros-groovy-geometry-msgs, ros-groovy-message-generation, ros-groovy-rospy, ros-groovy-sensor-msgs, ros-groovy-tf
+Homepage: http://ros.org/wiki/axis_camera
+Standards-Version: 3.9.2
+
+Package: ros-groovy-axis-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-camera-info-manager-py, ros-groovy-dynamic-reconfigure, ros-groovy-geometry-msgs, ros-groovy-message-runtime, ros-groovy-rospy, ros-groovy-sensor-msgs, ros-groovy-tf
+Description: Python ROS drivers for accessing an Axis camera's MJPG stream. Also provides control for PTZ cameras.
