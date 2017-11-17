@@ -1,0 +1,13 @@
+Source: ros-lunar-axis-camera
+Section: misc
+Priority: extra
+Maintainer: Sammy Pfeiffer <sam.pfeiffer@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-camera-info-manager-py, ros-lunar-catkin, ros-lunar-dynamic-reconfigure, ros-lunar-geometry-msgs, ros-lunar-message-generation, ros-lunar-rospy, ros-lunar-sensor-msgs, ros-lunar-tf
+Homepage: http://ros.org/wiki/axis_camera
+Standards-Version: 3.9.2
+
+Package: ros-lunar-axis-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-camera-info-manager-py, ros-lunar-dynamic-reconfigure, ros-lunar-geometry-msgs, ros-lunar-message-runtime, ros-lunar-rospy, ros-lunar-sensor-msgs, ros-lunar-tf
+Description: Python ROS drivers for accessing an Axis camera's MJPG stream.
+ Also provides control for PTZ cameras.
