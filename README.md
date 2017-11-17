@@ -1,3 +1,26 @@
+## axis_camera (lunar) - 0.2.1-0
+
+The packages in the `axis_camera` repository were released into the `lunar` distro by running `/usr/bin/bloom-release axis_camera --rosdistro lunar --track lunar` on `Fri, 17 Nov 2017 05:32:41 -0000`
+
+The `axis_camera` package was released.
+
+Version of package(s) in repository `axis_camera`:
+
+- upstream repository: https://github.com/ros-drivers/axis_camera.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.1`
+- catkin_pkg version: `0.3.6`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## axis_camera (kinetic) - 0.2.1-0
 
 The packages in the `axis_camera` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release axis_camera --rosdistro kinetic --track kinetic` on `Fri, 17 Nov 2017 05:25:11 -0000`
