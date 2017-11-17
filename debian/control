@@ -1,0 +1,13 @@
+Source: ros-jade-axis-camera
+Section: misc
+Priority: extra
+Maintainer: Sammy Pfeiffer <sam.pfeiffer@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-camera-info-manager-py, ros-jade-catkin, ros-jade-dynamic-reconfigure, ros-jade-geometry-msgs, ros-jade-message-generation, ros-jade-rospy, ros-jade-sensor-msgs, ros-jade-tf
+Homepage: http://ros.org/wiki/axis_camera
+Standards-Version: 3.9.2
+
+Package: ros-jade-axis-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-camera-info-manager-py, ros-jade-dynamic-reconfigure, ros-jade-geometry-msgs, ros-jade-message-runtime, ros-jade-rospy, ros-jade-sensor-msgs, ros-jade-tf
+Description: Python ROS drivers for accessing an Axis camera's MJPG stream.
+ Also provides control for PTZ cameras.
