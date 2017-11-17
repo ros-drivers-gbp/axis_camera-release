@@ -1,3 +1,26 @@
+## axis_camera (jade) - 0.2.1-0
+
+The packages in the `axis_camera` repository were released into the `jade` distro by running `/usr/bin/bloom-release axis_camera --new --rosdistro jade --track jade` on `Fri, 17 Nov 2017 05:19:29 -0000`
+
+The `axis_camera` package was released.
+
+Version of package(s) in repository `axis_camera`:
+
+- upstream repository: https://github.com/ros-drivers/axis_camera.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.6`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## axis_camera (hydro) - 0.2.0-0
 
 The packages in the `axis_camera` repository were released into the `hydro` distro by running `/usr/bin/bloom-release -r hydro -t hydro axis_camera --edit-track` on `Wed, 06 May 2015 16:56:57 -0000`
