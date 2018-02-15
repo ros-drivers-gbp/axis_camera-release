@@ -1,0 +1,13 @@
+Source: ros-indigo-axis-camera
+Section: misc
+Priority: extra
+Maintainer: Sammy Pfeiffer <sam.pfeiffer@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-camera-info-manager-py, ros-indigo-catkin, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-tf
+Homepage: http://ros.org/wiki/axis_camera
+Standards-Version: 3.9.2
+
+Package: ros-indigo-axis-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-camera-info-manager-py, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: Python ROS drivers for accessing an Axis camera's MJPG stream.
+ Also provides control for PTZ cameras.
