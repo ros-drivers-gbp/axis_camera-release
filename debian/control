@@ -1,0 +1,13 @@
+Source: ros-melodic-axis-camera
+Section: misc
+Priority: optional
+Maintainer: Sammy Pfeiffer <sam.pfeiffer@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-camera-info-manager-py, ros-melodic-catkin, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-tf
+Homepage: http://ros.org/wiki/axis_camera
+Standards-Version: 3.9.2
+
+Package: ros-melodic-axis-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-camera-info-manager-py, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-tf
+Description: Python ROS drivers for accessing an Axis camera's MJPG stream.
+ Also provides control for PTZ cameras.
