@@ -1,3 +1,26 @@
+## axis_camera (melodic) - 0.3.0-1
+
+The packages in the `axis_camera` repository were released into the `melodic` distro by running `/usr/bin/bloom-release axis_camera --rosdistro melodic --track melodic` on `Tue, 21 Jan 2020 02:35:36 -0000`
+
+The `axis_camera` package was released.
+
+Version of package(s) in repository `axis_camera`:
+
+- upstream repository: https://github.com/ros-drivers/axis_camera.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.42`
+
+
 ## axis_camera (lunar) - 0.3.0-0
 
 The packages in the `axis_camera` repository were released into the `lunar` distro by running `/usr/bin/bloom-release axis_camera --rosdistro lunar --track lunar` on `Fri, 25 May 2018 06:59:28 -0000`
