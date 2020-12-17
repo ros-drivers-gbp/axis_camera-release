@@ -38,7 +38,7 @@ class StreamThread(threading.Thread):
 
         # support for Axis F34 multicamera switch
         if (self.axis.camera != 0):
-            self.url += "&camera=%d" % self.axis.camera
+            self.url += "&camera=%s" % str(self.axis.camera)
 
         rospy.logdebug('opening ' + str(self.axis))
 
@@ -69,7 +69,7 @@ class StreamThread(threading.Thread):
         try:
             self.fp = urllib2.urlopen(self.url, timeout=self.timeoutSeconds)
             return(True)
-        except urllib2.URLError, e:
+        except urllib2.URLError as e:
             rospy.logwarn('Error opening URL %s' % (self.url) +
                             'Possible timeout.  Looping until camera appears')
             return(False)
