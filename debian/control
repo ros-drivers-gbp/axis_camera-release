@@ -1,0 +1,13 @@
+Source: ros-noetic-axis-camera
+Section: misc
+Priority: optional
+Maintainer: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-tf
+Homepage: http://ros.org/wiki/axis_camera
+Standards-Version: 3.9.2
+
+Package: ros-noetic-axis-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-tf
+Description: Python ROS drivers for accessing an Axis camera's MJPG stream.
+ Also provides control for PTZ cameras.
